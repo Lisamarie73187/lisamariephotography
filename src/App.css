@@ -2,37 +2,93 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* // HEADER */
+
+
+h1 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 35px;
+  color: rgb(94, 94, 94);
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(94, 94, 94);
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h3 {
+  font-family: "Parisienne", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(94, 94, 94);
+  font-size: 25px;
+  padding: 0;
+  margin: 0
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+.header {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  flex-wrap: wrap;
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h2{
+    padding: 0 30px;
   }
-  to {
-    transform: rotate(360deg);
+  img {
+    padding: 40px 300px;
+  }
+}
+
+/* // CAROUSEL */
+.carousel-item {
+  padding: 0px 5px;
+}
+
+/* //ABOUT */
+
+.about {
+  padding: 80px;
+
+  h1 {
+    padding: 20px;
+  }
+
+  .bold {
+    font-weight: 500;
+  }
+  p {
+    padding: 10px 300px;
+    
+  }
+
+  .styled-line {
+    border: none;
+    border-top: 1px solid rgb(182, 182, 182);
+    margin: 0px auto;
+    padding-bottom: 20px;
+    width: 30%;
   }
 }
