@@ -13,7 +13,7 @@ export const CarouselComponent: React.FC = () =>  {
         <Carousel
             autoPlay
             centerMode
-            centerSlidePercentage={70}
+            centerSlidePercentage={60}
             infiniteLoop
             interval={4000}
             showArrows
