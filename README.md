@@ -22,4 +22,21 @@ To run this project, you will need the following installed:
    git clone https://github.com/your-username/lisamariephotography.git
    cd lisamariephotography
 
+2. **Install dependencies:**
+   ```bash
+    npm install
+    # or
+    yarn install
+
+3. **Start the development server:**
+   ```bash
+    npm start
+    # or
+    yarn start
+
+4. **Open your browser and visit http://localhost:3000 to view the app.**
+
+
+
+
    
