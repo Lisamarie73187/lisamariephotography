@@ -13,7 +13,7 @@ export const Decscription: React.FC = () =>  {
         <p className='bold'>Specializing in families, couples, friends, students, and pets.</p>
         <p>
         I believe in the power of capturing joyful moments and heartfelt laughter that make life special, 
-        while highlighting the unique personality and spirit of each subject. 
+        while highlighting the unique personality and spirit of each subject. Let me help you preserve your most cherished moments with photographs 
         </p>
         </div>
     );
