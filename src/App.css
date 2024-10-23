@@ -52,6 +52,10 @@ p {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: white;
 
   h2{
     padding: 0 40px;

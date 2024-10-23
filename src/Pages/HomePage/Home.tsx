@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Header from '../../components/Header';
 import { CarouselComponent } from '../../components/CarouselComponent';
 import { Decscription } from '../../components/Description';
@@ -12,14 +12,26 @@ import Footer from '../../components/Footer';
 
 
 const Home: React.FC = () => {
+    const homeRef = useRef<HTMLDivElement>(null);
+    const aboutRef = useRef<HTMLDivElement>(null);
+    const contactRef = useRef<HTMLDivElement>(null);
+    const profileRef = useRef<HTMLDivElement>(null);
     return (
         <div>
-            <Header/>
-            <CarouselComponent/>
+            <Header refs={{homeRef, aboutRef, contactRef, profileRef}} />
+            <div ref={homeRef}>
+                <CarouselComponent/>
+            </div>
             <Decscription/>
-            <PortfolioSection/>
-            <About/>
-            <Contact/>
+            <div ref={profileRef}>
+                <PortfolioSection/>
+            </div>
+            <div ref={aboutRef}>
+                <About/>
+            </div>
+            <div ref={contactRef}>
+                <Contact/>
+            </div>
             <Footer/>
         </div>
     );
