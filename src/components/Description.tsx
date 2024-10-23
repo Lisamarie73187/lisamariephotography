@@ -8,7 +8,7 @@ export const Decscription: React.FC = () =>  {
     return (
        <div className='description'>
         <h3>Capturing Love, Life, and Laughter</h3>
-        <h1>TREASUE VALLEY LIFESTYLE PHOTOGRAPHY</h1>
+        <h1>LOCAL BEND LIFESTYLE PHOTOGRAPHY</h1>
         <div className='styled-line'></div>
         <p className='bold'>Specializing in families, couples, friends, students, and pets.</p>
         <p>
